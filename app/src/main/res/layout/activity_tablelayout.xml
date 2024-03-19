@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tablelayout">
+
+    <TableRow>
+
+       <TextView
+           android:layout_height="50dp"
+           android:layout_width="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:text="Row 1,Column1"/>
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Row 1,Column2"/>
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Row 2,Column1"/>
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Row 2,Column2"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Row 3,Column1"/>
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Row 3,Column2"/>
+
+    </TableRow>
+
+
+
+</TableLayout>
